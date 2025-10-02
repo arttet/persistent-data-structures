@@ -1,0 +1,1 @@
+# TEST_EXTRA_ARGS = --cov-report=html --capture=no
