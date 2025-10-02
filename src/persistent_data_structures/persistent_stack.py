@@ -58,3 +58,12 @@ class PersistentStack(Generic[T]):
         Space complexity: O(1)
         """
         return self.top.value if self.top is not None else None
+
+    def is_empty(self) -> bool:
+        """
+        Returns True if the stack contains no elements.
+
+        Time complexity: O(1)
+        Space complexity: O(1)
+        """
+        return self.top is None

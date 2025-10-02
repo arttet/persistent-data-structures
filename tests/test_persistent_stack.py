@@ -6,6 +6,7 @@ from persistent_data_structures.persistent_stack import PersistentStack
 def test_empty_stack():
     stack = PersistentStack()
     assert stack.top is None
+    assert stack.is_empty()
 
 
 def test_push_creates_new_stack():
