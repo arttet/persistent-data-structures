@@ -1,0 +1,4 @@
+TEST_EXTRA_ARGS = --cov-report=html --capture=no
+
+# SCRIPT_EXTRA_ARGS = --help
+SCRIPT_EXTRA_ARGS = --qty 1
