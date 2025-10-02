@@ -13,7 +13,11 @@ Let `PersistentStack` be a data structure with the following `API`:
 The key point is that both functions are non-mutating: they create new entities. While each function returns a new stack, it does not rebuild the structure
 from scratch but instead reuses the existing one. This ensures that both operations run in `O(1)` time.
 
-* How can one implement `PersistentStack`?
-* Can you implement a `PersistentQueue` data structure with similar properties?
-* In what contexts are such data structures useful?
-* Do you also know how to implement other kinds of persistent data structures?
+## Persistent Queue
+
+Let `PersistentQueue` be a data structure with the following `API`:
+
+* `enqueue` takes a `PersistentQueue` and an element, and returns a new queue with the element added to the rear,
+* `dequeue` takes a `PersistentQueue` and returns a pair consisting of the queue without its front element and the removed element; if the queue is empty, it returns a pair of the empty queue and `nil`.
+
+The key point is that both functions are non-mutating: they create new entities. While each function returns a new queue, it does not rebuild the structure from scratch but instead reuses the existing one. This ensures that both operations run in `O(1*)` amortized time.
