@@ -1,4 +1,9 @@
-# Persistent Stack
+# Persistent Data Structures
+
+[![build](https://github.com/arttet/persistent-data-structures/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/arttet/persistent-data-structures/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/arttet/persistent-data-structures/graph/badge.svg?token=2GPVVT1VOX)](https://codecov.io/gh/arttet/persistent-data-structures)
+
+## Persistent Stack
 
 Let `PersistentStack` be a data structure with the following `API`:
 
